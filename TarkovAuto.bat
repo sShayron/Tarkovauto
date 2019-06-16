@@ -1,6 +1,6 @@
 @ECHO OFF
 
-START "" "c:\Games\Tarkov\BsgLauncher.exe"
+START "" "C:\Battlestate Games\BsgLauncher\BsgLauncher.exe"
 
 :LOOP
 TASKLIST | FIND /I "EscapeFromTarkov.exe"
